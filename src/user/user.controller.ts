@@ -2,7 +2,7 @@ import { Controller, Get, Post, Body, Patch, Param, Delete, Request, UseGuards }
 import { UserService } from './user.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-import { AuthGuard } from './auth.gurd';
+import { AuthGuard } from './auth.guard';
 import { LoginUserDto } from './dto/signin-user-dto';
 
 @Controller('user')
